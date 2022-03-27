@@ -85,10 +85,53 @@ main form input[type="submit"]{
     border: none;
     border-radius: 32px;
     background-color: #b949ef;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     transition: all 0.3s ease-in-out;
 }
 
 main form input[type="submit"]:hover{
-    background-color: #ca7def;
+    background-color: #aa17ee;
+}
+
+section.imagens{
+    display: flex;
+    align-items: flex-end;
+    padding: 4rem;
+}
+
+section.imagens img{
+    width: 80%;
+}
+
+section.imagens .circle1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #636, #636fa4);
+    clip-path: circle(35% at right 90%);
+    z-index: -1;
+}
+
+section.imagens .circle2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #636, #636fa4);
+    clip-path: circle(2% at 85% 40%);
+    z-index: -1;
+}
+
+section.imagens .circle3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(60deg, #636, #636fa4);
+    clip-path: circle(0.6% at 90% 42%);
+    z-index: -1;
 }
