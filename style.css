@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #221b29;
+    background-color: #1a161f;
     color: #fff;
     font-weight: 500;
     display: flex;
@@ -46,6 +46,31 @@ main .social-media img{
 
 main .social-media a:first-child img{
     margin-left: 0;
+}
+
+main .alternativa{
+    margin-top: 1rem;
+}
+
+main .alternativa span{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.3);
+    position: relative;
+}
+
+main .alternativa span::before, main .alternativa span::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: rgb(255, 255, 255, 0.3);
+}
+
+main .alternativa span::after{
+    left: 50px;
 }
 
 main form{
